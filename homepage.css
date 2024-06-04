@@ -92,7 +92,7 @@
     height: 500px;
     background-color: black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 60px;
     align-items: center;
     color: white;
@@ -108,6 +108,9 @@
     height: 60%;
     background-color: red;
 }
+.text{
+    width: 40%;
+}
 .text>h1{
     font-size: 60px;
     margin-bottom: 20px;
@@ -116,9 +119,12 @@
     font-size: 30px;
 }
 .picthree{
-    width: 30%;
-    height: 60%;
+    width: 35%;
+    height: 70%;
     background-color: red;
+}
+.text2{
+    width: 40%;
 }
 .text2>h1{
     font-size: 60px;
@@ -133,7 +139,7 @@
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 60px;
     margin-top: 10px;
     color: white;
@@ -150,11 +156,14 @@
     color: white;
     padding-left: 15%;
 }
-.four>h1{
+.textfour{
+    width: 40%;
+}
+.textfour>h1{
     font-size: 60px;
     margin-bottom: 20px;
 }
-.four>p{
+.textfour>p{
     font-size: 30px;
 }
 .five{
@@ -166,6 +175,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.text5{
+    width: 40%;
 }
 .text5>h1{
     font-size: 60px;
@@ -243,25 +255,31 @@
     margin-top: 10px;
     color: white;
     display: flex;
-    padding-left: 15%;
+    padding-left: 12%;
     padding-right: 15%;
     flex-direction: column;
     justify-content: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 .content{
     width: 100%;
     height: 40%;
     display: flex;
-    justify-content: space-between;
     margin-top: 20px;
+    justify-content: space-between;
 }
-.options{
-    width: 24%;
+.item{
+    width: 40%;
     height: 100%;
     gap: 20px;
     display: flex;
     flex-direction: column;
+}
+.options{
+    width:50%;
+    height: 100%;
+    gap: 50px;
+    display: flex;
 }
 .opts:hover{
     background-color: rgb(54, 52, 52);
@@ -302,6 +320,9 @@
         flex-direction: column;
         text-align: center;
     }
+    .text{
+        width: 100%;
+    }
     .text>h1{
         font-size: 32px;
     }
@@ -319,6 +340,9 @@
         flex-direction: column-reverse;
         text-align: center;
         padding-top: 40px;
+    }
+    .text2{
+        width: 100%;
     }
     .text2>h1{
         font-size: 32px;
@@ -338,10 +362,13 @@
         justify-content: center;
         padding-left: 0;
     }
-    .four>h1{
+    .textfour{
+        width: 100%;
+    }
+    .textfour>h1{
         font-size: 32px;
     }
-    .four>p{
+    .textfour>p{
         font-size: 20px;
     }
     .five{
@@ -352,6 +379,9 @@
     }
     .picfive{
         width: 70%;
+    }
+    .text5{
+        width: 100%;
     }
     .text5>h1{
         font-size: 32px;
@@ -378,17 +408,29 @@
     }
     .footer{
         padding: 25px;
+        font-size: 17px;
     }
     .content{
         width: 100%;
         height: 70%;
-        /* background-color: red; */
+        display: flex;
     }
-    .list{
+    .options{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .item{
+        gap: 14px;
+        display: flex;
+        width: 100%;
+
+    }
+    /* .list{
         display: inline-flex;
         flex-wrap: wrap;
         height: inherit;
         flex-direction: row;
         width: 30%;
-    }
+    } */
 }
